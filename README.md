@@ -1,6 +1,6 @@
 # AI CV Fit - Backend Quality / Testing
 
-## Phần của Đạt - Backend Quality / Testing Owner
+## Backend Quality / Testing Owner
 
 Repository này chứa phần backend quality và testing của AI CV Fit Phase 1.
 
@@ -360,8 +360,3 @@ python -m pytest tests/ -v
 
 ---
 
-## Team
-
-- **Phúc** - Backend / Deployment Lead
-- **Quân** - Frontend / UI Owner
-- **Đạt** - Backend Quality / Testing (phần này)
