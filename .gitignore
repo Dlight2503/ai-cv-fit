@@ -1,0 +1,69 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+dist/
+*.egg-info/
+
+# Pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Database - KHÔNG BAO GIỜ commit database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment variables - NEVER commit secrets
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Celery / Redis
+celerybeat-schedule
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Backend specific
+backend/__pycache__/
+backend/app/__pycache__/
+backend/app/core/__pycache__/
+backend/app/models/__pycache__/
+backend/app/routers/__pycache__/
+
+# Alembic migrations auto-generated (nếu có)
+alembic/versions/*.py
+!alembic/versions/.gitkeep
+
+# Test outputs
+test_temp.db
